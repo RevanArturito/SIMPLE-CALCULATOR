@@ -1,0 +1,109 @@
+.container {
+    width:95rem;
+    height: 35rem;
+    margin-top:6rem;
+    display :flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    .box1 {
+        width: 18.5rem;
+        height: 4.5rem;
+        background-color: blu;
+        text-align: center;
+    }
+    .box2 {
+        border-radius: 10px;
+        width: 20.5rem;
+        height: 24.5rem;
+        background-color: black;
+        display:flex;
+        flex-wrap: wrap;
+        align-items:center;
+        justify-content: center;
+    }
+
+}
+form .button {
+    cursor: pointer;
+    border-radius: 4px;
+    background-color: darkslategrey;
+    border: none;
+    color: white;
+    width:4rem;
+    height:4rem;
+    text-align: center;
+    font-size: 16px;
+    margin: 3px 3px;
+}
+
+form .buttonEqual {
+    cursor: pointer;
+    border-radius: 4px;
+    background-color: darkslategrey;
+    border: none;
+    color: white;
+    width:4rem;
+    height:4rem;
+    text-align: center;
+    font-size: 16px;
+    margin: 3px 3px;
+}
+
+form .buttonDel {
+    cursor: pointer;
+    border-radius: 4px;
+    background-color: #a20000;
+    border: none;
+    color: white;
+    width:4rem;
+    height:4rem;
+    text-align: center;
+    font-size: 16px;
+    margin: 3px 3px;
+}
+
+form .buttonResult {
+    cursor: pointer;
+    border-radius: 4px;
+    background-color: darkslategray;
+    border: none;
+    color: white;
+    text-align: center;
+    width:13rem;
+    height:4rem;
+    font-size: 16px;
+    margin: 3px 3px;
+}
+
+body {
+    background-color: grey;
+}
+.button:hover {
+   background-color: rgb(110, 155, 155);
+   color : black:
+}
+.buttonEqual:hover {
+    background-color: rgb(110, 155, 155);
+    color : black:
+ }
+
+.buttonDel:hover {
+   background-color: red;
+   color :black :
+}
+
+
+
+form .display {
+    cursor: pointer;
+    border-radius: 4px;
+    background-color: darkslategrey;
+    border: none;
+    color: white;
+    width:4rem;
+    height:4rem;
+    text-align: center;
+    font-size: 16px;
+    margin: 2px 2px;
+}

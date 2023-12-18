@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="Style.css">
+    <title>Calculator</title>
+</head>
+<body>
+    <div class="container">
+        <div class="box1">
+            <h1>Calculator</h1>
+        </div>
+        <div class="box2">
+            <form>
+                <div>
+                    <input class = "buttonResult" type="text" name = "result">
+                    <input class = "buttonDel" type="button" value = "del" onclick="result.value = result.value.slice(0,-1) ">
+                </div>
+                <div>
+                    <input class = "button" type="button" value = "1" onclick="result.value += '1' ">
+                    <input class = "button" type="button" value = "2" onclick="result.value += '2' ">
+                    <input class = "button" type="button" value = "3" onclick="result.value += '3' ">
+                    <input class = "button" type="button" value = "+" onclick="result.value += '+' ">
+                </div>
+
+                <div>
+                    <input class = "button" type="button" value = "4" onclick="result.value += '4' ">
+                    <input class = "button" type="button" value = "5" onclick="result.value += '5' ">
+                    <input class = "button" type="button" value = "6" onclick="result.value += '6' ">
+                    <input class = "button" type="button" value = "-" onclick="result.value += '-' ">
+                </div>
+
+                <div>
+                    <input class = "button" type="button" value = "7" onclick="result.value += '7' ">
+                    <input class = "button" type="button" value = "8" onclick="result.value += '8' ">
+                    <input class = "button" type="button" value = "9" onclick="result.value += '9' ">
+                    <input class = "button" type="button" value = "x" onclick="result.value += '*' ">
+                </div>
+                
+                <div>
+                    <input class = "buttonDel" type="button" value = "ac" onclick="result.value = '' ">
+                    <input class = "button" type="button" value = "0" onclick="result.value += '0' ">
+                    <input class = "buttonEqual" type="button" value = "=" onclick = "result.value = eval(result.value)" >
+                    <input class = "button" type="button" value = "/" onclick="result.value += '/' ">
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
